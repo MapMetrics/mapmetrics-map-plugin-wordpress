@@ -59,6 +59,12 @@ Before using the plugin, you'll need to create a custom map style and API key:
 3. Click **Save Changes**
 4. Use the style name in your shortcodes
 
+**Settings Page Example:**
+
+![MapMetrics Map Settings](screenshots/map_style_setting.png)
+
+The settings page allows you to add multiple custom styles. Each style needs a friendly name and the complete style URL from MapAtlas.
+
 ## Basic Usage
 
 ### Minimal Map
@@ -78,6 +84,18 @@ Before using the plugin, you'll need to create a custom map style and API key:
 ```
 [mapmetrics_map width="1200px" height="800px" style="Dark" lng="2.349902" lat="48.852966" zoom="15" bearing="45" pitch="60"]
 ```
+
+**Example: Map Display**
+
+![MapMetrics Map Example](screenshots/map.png)
+
+The map integrates seamlessly into your WordPress content with full interactivity, navigation controls, and collapsible attribution.
+
+**Example: Shortcode Editor**
+
+![Shortcode in WordPress Editor](screenshots/short_code_example.png)
+
+Simply add the shortcode to any post or page in WordPress. The shortcode supports all parameters for complete customization.
 
 ## Map Configuration
 
@@ -420,6 +438,16 @@ function flyToAmsterdam() {
 1. Verify minimum 2 coordinate pairs
 2. Check coordinate format
 3. Ensure polylines are added after map loads
+
+## Screenshots
+
+The plugin includes visual examples to help you get started:
+
+1. **map.png** - Interactive map display with navigation controls and attribution
+2. **short_code_example.png** - Shortcode implementation in WordPress block editor
+3. **map_style_setting.png** - MapMetrics Map settings page for adding custom styles
+
+Screenshots are located in the `/screenshots/` directory of the plugin.
 
 ## Support
 
