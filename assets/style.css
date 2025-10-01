@@ -1,0 +1,12 @@
+/* MapMetrics Map Plugin Styles */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.mapmetrics-map {
+    min-height: 500px;
+    width: 100%;
+}
