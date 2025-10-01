@@ -17,10 +17,32 @@ A comprehensive WordPress plugin to embed interactive MapMetrics maps with exten
 
 ## Installation
 
-1. Upload `mapmetrics-map-plugin` folder to `/wp-content/plugins/`
-2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Go to Settings → MapMetrics Map to configure custom styles
-4. Use the shortcode `[mapmetrics_map]` in any post or page
+### Method 1: Upload ZIP File (Recommended)
+
+1. Download the latest `mapmetrics-map-plugin.zip` from the [GitHub repository](https://github.com/yourusername/mapmetrics-map-plugin/releases)
+2. In WordPress Admin, go to **Plugins → Add New → Upload Plugin**
+3. Click **Choose File** and select the downloaded ZIP file
+4. Click **Install Now**
+5. Click **Activate Plugin**
+6. Go to **Settings → MapMetrics Map** to configure custom styles
+7. Use the shortcode `[mapmetrics_map]` in any post or page
+
+### Method 2: Manual Installation
+
+1. Download and extract the plugin ZIP file
+2. Upload the `mapmetrics-map-plugin` folder to `/wp-content/plugins/`
+3. Activate the plugin through the 'Plugins' menu in WordPress
+4. Go to Settings → MapMetrics Map to configure custom styles
+5. Use the shortcode `[mapmetrics_map]` in any post or page
+
+### Method 3: Git Clone (For Developers)
+
+```bash
+cd /path/to/wordpress/wp-content/plugins/
+git clone https://github.com/yourusername/mapmetrics-map-plugin.git
+```
+
+Then activate through WordPress admin.
 
 ## Configuration
 
